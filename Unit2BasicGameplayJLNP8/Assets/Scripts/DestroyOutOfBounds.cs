@@ -8,6 +8,8 @@ public class DestroyOutOfBounds : MonoBehaviour
     private float lowerBound = -10;
     private float sideBound = 30;
 
+    public GameManager manager;
+
     // Update is called once per frame
     void Update()
     {
