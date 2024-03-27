@@ -940,7 +940,7 @@ GameObject:
   - component: {fileID: 1035414930898444581}
   m_Layer: 0
   m_Name: Horse
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -999,7 +999,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315bc980061a44545b59ab41578fff9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 8
 --- !u!114 &1744598087630781940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1072,6 +1072,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4181094df96cab44ba785f304013e705, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  projectile: {fileID: 0}
 --- !u!1 &5778903312388961478
 GameObject:
   m_ObjectHideFlags: 0

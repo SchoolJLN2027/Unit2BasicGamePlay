@@ -24,10 +24,14 @@ public class DetectCollisions : MonoBehaviour
             Debug.Log("Game Over");
             Destroy(gameObject);
         }
+        if (other.CompareTag("Enemy"))
+        {
+            return;
+        }
         else
         {
             Destroy(gameObject);
-            Destroy(gameObject);
+            Destroy(other.gameObject);
         }
     }
 }
