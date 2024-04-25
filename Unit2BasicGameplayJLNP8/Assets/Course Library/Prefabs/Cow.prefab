@@ -812,6 +812,7 @@ GameObject:
   - component: {fileID: -3440222986487740366}
   - component: {fileID: -5043685789857471184}
   - component: {fileID: -9220929306125004578}
+  - component: {fileID: -8104801556784150824}
   m_Layer: 0
   m_Name: Cow
   m_TagString: Enemy
@@ -941,7 +942,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4181094df96cab44ba785f304013e705, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 0}
+--- !u!114 &-8104801556784150824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4127897249506010254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1d92f5c03331394abf34fc3141f984d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hunger: 1
 --- !u!1 &4266554117374650568
 GameObject:
   m_ObjectHideFlags: 0

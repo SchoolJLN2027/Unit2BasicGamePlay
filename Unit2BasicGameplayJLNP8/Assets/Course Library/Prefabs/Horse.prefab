@@ -938,6 +938,7 @@ GameObject:
   - component: {fileID: 6771307588649590525}
   - component: {fileID: 4097658320565262696}
   - component: {fileID: 1035414930898444581}
+  - component: {fileID: 1040010076107518266}
   m_Layer: 0
   m_Name: Horse
   m_TagString: Enemy
@@ -1072,7 +1073,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4181094df96cab44ba785f304013e705, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 0}
+--- !u!114 &1040010076107518266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5431004381297371748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1d92f5c03331394abf34fc3141f984d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hunger: 1
 --- !u!1 &5778903312388961478
 GameObject:
   m_ObjectHideFlags: 0

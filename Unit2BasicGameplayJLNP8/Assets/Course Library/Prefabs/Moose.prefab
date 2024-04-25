@@ -865,6 +865,7 @@ GameObject:
   - component: {fileID: 5626677557357605661}
   - component: {fileID: 5881882206540278703}
   - component: {fileID: -5855306868186294165}
+  - component: {fileID: 4836647815280956544}
   m_Layer: 0
   m_Name: Moose
   m_TagString: Enemy
@@ -1003,3 +1004,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4181094df96cab44ba785f304013e705, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4836647815280956544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7726623503024325005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1d92f5c03331394abf34fc3141f984d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hunger: 1
